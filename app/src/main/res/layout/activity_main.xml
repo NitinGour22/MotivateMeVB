@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/dark_sea_green"
+    android:padding="@dimen/padding_20dp"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/iv_communicate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/tea_green"
+        android:contentDescription="@string/hello"
+        android:src="@drawable/communicate" />
+
+    <TextView
+        android:id="@+id/tv_display_msg"
+        android:layout_marginTop="@dimen/padding_10dp"
+        android:padding="@dimen/padding_10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/say_hello"
+        android:textAlignment="center"
+        android:textSize="@dimen/text_20sp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:textSize="@dimen/text_20sp"
+        android:id="@+id/et_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/et_hint"
+        android:inputType="text"
+        android:padding="@dimen/padding_10dp"
+        android:textColor="@color/black"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/bt_update"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_20sp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_10dp"
+        android:text="@string/update"
+        android:backgroundTint="@color/tea_green"/>
+</LinearLayout>

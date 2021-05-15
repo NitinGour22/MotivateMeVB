@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Motivate Me</string>
+    <string name="et_hint">Enter Your Name</string>
+    <string name="update">Update</string>
+    <string name="say_hello">Say hello...!!</string>
+    <string name="hello">hello</string>
+</resources>
